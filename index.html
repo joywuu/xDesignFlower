@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>three</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        html, body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #A760FA;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div id="three"></div>
+
+<script type="importmap">
+    {
+        "imports": {
+            "three": "./js/three.module.js",
+            "dat.gui": "./js/dat.gui.module.js",
+            "three/addons/": "./js/jsm/",
+            "assets/": "./assets/"
+        }
+    }
+</script>
+<script type="module" src="js/index.js"></script>
+</body>
+</html>
